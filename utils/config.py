@@ -16,7 +16,7 @@ def ParserArguments():
 
     # Directory Setting 
     args.add_argument('--data_root', type=str, default='./data/', help='dataset directory')
-    args.add_argument('--pkl', type=str, default="exp/model_best.model.pkl", help='model pkl file')
+    args.add_argument('--pkl', type=str, default="exp/model_final_checkpoint.model.pkl", help='model pkl file')
     args.add_argument('--model_weights', type=str, default="exp/model_final_checkpoint.model", help='model weight file')
 
     args = args.parse_args()
