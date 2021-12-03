@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+exp/model_best.model.pkl
+exp/model_final_checkpoint.model
